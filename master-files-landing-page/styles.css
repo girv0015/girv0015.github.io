@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 0;
+    background-image: url(images/bg-image/scooter.svg);
+    width:auto; height:auto;
+
+    background-repeat: no-repeat;
+    position: -1;
+}
+
+header .logo{
+    max-width: 15%;
+    height: auto;
+}
+
+
+/*Intro*/
+.main{
+    display:flex;
+    max-width: auto;
+
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: auto;
+
+    }
+
+form{
+    background-color: #f7f7ff;
+    border: 2px solid gray;
+    border-radius: 25px;
+    max-width: 100%;
+    box-shadow: 5px 5px 5px 5px #777777;
+
+  }
+.info-box{
+    margin: 10px auto 10px auto;
+
+}
+.contract{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 50%;
+}
+input, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: column;
+  }
+
+.check{ 
+      width: auto;
+      padding: 12px;
+      resize: column
+  }
+
+.drive{
+    width: auto;
+    padding: 12px;
+    resize: column
+}
+.drive{
+    background-color: orangered;
+    border: none;
+}
+section{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: auto;
+}
+
+
+.calc{
+    display:flex;
+    flex-direction: column;
+    max-width: auto;
+;
+
+}
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}

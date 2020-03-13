@@ -1,0 +1,371 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+    width: auto;
+    height: auto;
+}
+/***HEADER***/
+main {
+    width: 100%;
+
+}
+/**NAVAGATION**/
+header .nav {
+    display: flex;
+    max-width: auto;
+    background: #000000;
+    justify-content: flex-end;    
+}
+
+header .nav a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header .nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/*********************
+    BANNER SECTION
+**********************/
+section.first{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    flex-grow: 1;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+}
+
+section.content {
+    display: flex;
+    max-width: 100%;
+    background: #F2F2F2;
+}
+
+.column{
+    display: flex;
+    
+
+}
+img.banner-img{
+    display: flex;
+    margin: 5%;
+    min-width: 35%;
+    max-width: 70%;
+    
+}
+
+
+  
+/**************************
+            ABOUT
+**************************/
+
+.aboutbanner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+}
+.schoolpic{
+    background: rgba(118, 201, 118, 0.42);
+}
+.school-img{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+}
+/********************
+       MESSAGE
+********************/
+section.third {
+    display: flex;
+    flex-direction: row;
+    background: #f6f6f6;
+
+}
+.messages{
+    display: flex;
+    flex-direction: row;
+    background: #f6f6f6;
+    justify-content: space-evenly;
+}
+
+.who {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5%;
+    max-width: 100%;
+
+}
+
+
+.what {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5%;
+
+    max-width: 100%;
+}
+
+.where{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5%;
+
+    max-width: 100%;
+}
+
+
+
+/**************************
+SOCIAL
+**************************/
+.servicesbanner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+}
+.servicespic{
+    background: rgba(118, 201, 118, 0.42);
+}
+
+.services-img{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+/**************************
+    ENTERTAINMENT
+**************************/
+.services-info1{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    flex-grow: 1;
+}
+
+
+section.content {
+    display: flex;
+    max-width: 100%;
+    background: #F2F2F2;
+}
+
+.column{
+    display: flex;
+    
+
+}
+img.bar-img{
+    display: flex;
+    margin: 5%;
+    min-width: 35%;
+    max-width: 70%;
+    
+}
+/************************
+        BOWLING
+************************/
+.services-info2{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    flex-grow: 1;
+    background-color: #f2f2f2;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    
+}
+
+section.content {
+    display: flex;
+    max-width: 100%;
+    background: #F2F2F2;
+}
+
+img.bowl-img{
+    display: flex;
+    margin: 5%;
+    min-width: 35%;
+    max-width: 70%;
+    
+}
+
+/************************
+        NEWSLETTER
+************************/
+.newsletter {
+    display: flex;
+    max-width: 100%;
+    background: #000000;
+}
+
+.news-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.news-msg {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    color: #F2F2F2;
+}
+
+button.sub {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+/************************
+        NINE
+************************/
+
+.services-info3{
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+gym-msg {
+    display: flex;
+    width: 100%;
+    background: #F2F2F2;
+}
+
+.column{
+    display: flex;
+
+}
+
+.gym-img{
+    display: flex;
+    margin: 5%;
+    min-width: 35%;
+    max-width: 70%;
+    
+}
+
+
+/************************
+        CLIMBING
+************************/
+.services-info4{
+    display: flex;
+    width: 100%;
+    max-height: 500px;
+    padding: 5%;
+    background-color: #f2f2f2;
+}
+
+.rock-mesg {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 5%;
+    background: #F2F2F2;
+}
+
+.rock-img{
+    display: flex;
+    max-width: 100%;
+    margin: 0;
+    
+}
+
+/*************************
+        SPONSOR
+*************************/
+
+section.sponsorslist.sponsor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sponsor-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.sponsor-img.spon{
+    width: 25%;
+
+}
+
+/************************
+        FOOTER
+************************/
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    max-width: 100%;
+    background-color: black;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 100%;
+}
+
+.follow{
+    text-justify: auto;
+    justify-content: space-evenly;
+    max-width: 100%;
+    max-height: 700px;
+    margin: auto;
+    color: white;
+}
+
